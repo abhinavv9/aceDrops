@@ -1,6 +1,8 @@
 import classes from "./About.module.css";
 import aboutPng from "../../Assets/about.png";
 
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <div className={classes.container}>
@@ -14,9 +16,12 @@ const About = () => {
             aptent taciti sociosqu ad litora torquent per conubia nostra, per
             inceptos himenaeos.
           </p>
-          <button className={classes.btn}>more</button>
+          <Link to="/about">
+            <p className={classes.btn}>more</p>
+          </Link>
         </div>
       </div>
+      <hr />
     </div>
   );
 };

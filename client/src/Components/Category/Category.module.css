@@ -1,0 +1,31 @@
+.container {
+  min-width: 768px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.heading {
+  margin: 1.5rem 0 3.5rem 0;
+  font-size: 3rem;
+  color: #858383;
+}
+
+.section {
+    height: 650px;
+}
+
+.png {
+  width: 70%;
+}
+
+.para {
+    float: center;
+    position: relative;
+    bottom: 25rem;
+    width: 300px;
+    left: 17rem;
+    color: #fff;
+    font-size: 24px;
+}

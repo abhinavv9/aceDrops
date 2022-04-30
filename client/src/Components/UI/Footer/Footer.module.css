@@ -1,0 +1,54 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "main main . . ";
+  background-color: black;
+  height: 300px;
+}
+
+.mainDiv {
+  grid-area: main;
+  text-align: left;
+  padding: 2rem 4rem;
+}
+
+.logo {
+  width: 250px;
+}
+
+.para {
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+}
+.contact {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-decoration: none;
+  padding: 2rem 0rem;
+}
+
+.heading {
+  color: #37b2f8;
+}
+
+.address {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 2rem 0rem;
+}
+
+.email i {
+    padding-right: 0.4rem;;
+}

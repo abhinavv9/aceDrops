@@ -6,6 +6,7 @@ const Header = () => {
   return (
     <div className={classes.conatiner}>
       <img className={classes.headerPng} src={headPng} alt="header" />
+      <p className={classes.para}>A marketplace for social media sellers is here </p>
       <Link to="/download">
         <button className={classes.btn}>Download Our App</button>
       </Link>
