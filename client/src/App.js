@@ -17,8 +17,8 @@ function App() {
           <Route path="/About">
             <AboutPage />
           </Route>
-          <Footer />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

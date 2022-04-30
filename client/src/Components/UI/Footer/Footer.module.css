@@ -4,12 +4,15 @@
   grid-template-areas: "main main . . ";
   background-color: black;
   height: 300px;
+  overflow: hidden;
 }
 
 .mainDiv {
   grid-area: main;
   text-align: left;
-  padding: 2rem 4rem;
+  padding: 0 4rem;
+  padding-top: 2rem;
+  height: 300px;
 }
 
 .logo {
@@ -33,7 +36,8 @@ a {
   flex-direction: column;
   text-align: left;
   text-decoration: none;
-  padding: 2rem 0rem;
+  padding-top: 2rem;
+  height: 300px;
 }
 
 .heading {
@@ -46,7 +50,8 @@ a {
   flex-direction: column;
   justify-content: flex-start;
   text-align: left;
-  padding: 2rem 0rem;
+  padding-top: 2rem;
+  height: 300px;
 }
 
 .email i {
