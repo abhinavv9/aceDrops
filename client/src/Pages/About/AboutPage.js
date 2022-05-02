@@ -21,6 +21,10 @@ const About = () => {
           <span>Founded - </span>
           <span>December'21</span>
         </div>
+        <div>
+          <span>Founder - </span>
+          <span>Vishal Shukla</span>
+        </div>
       </div>
       <div className={classes.cardDiv}>
         {Card()}
