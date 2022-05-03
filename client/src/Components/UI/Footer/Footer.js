@@ -9,8 +9,12 @@ const Footer = () => {
       <div className={classes.mainDiv}>
         <img className={classes.logo} src={Logo} alt="Logo" />
         <p className={classes.para}>
-          An e commerce market place made for small social media sellers
+          An E-commerce marketplace made for small social media sellers
           operating through instagram, whatsapp and telegram.
+        </p>
+        
+        <p className={classes.copyright}>
+          All copyrights are reserved @acedrops
         </p>
       </div>
       <div className={classes.contact}>

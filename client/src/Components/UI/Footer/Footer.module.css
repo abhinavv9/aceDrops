@@ -4,12 +4,15 @@
   grid-template-areas: "main main . . ";
   background-color: black;
   height: 300px;
+  overflow: hidden;
 }
 
 .mainDiv {
   grid-area: main;
   text-align: left;
-  padding: 2rem 4rem;
+  padding: 0rem 4rem;
+  padding-top: 2rem;
+  height: 300px;
 }
 
 .logo {
@@ -22,6 +25,12 @@
   font-size: 18px;
   line-height: 29px;
   width: 75%;
+}
+
+.copyright{
+  color: white;
+  font-style:italic;
+  margin-top: 70px;
 }
 
 a {
