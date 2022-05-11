@@ -1,0 +1,64 @@
+.container {
+  margin-top: 5rem;
+}
+
+.heading {
+    font-size: 3rem;
+}
+
+.mainDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem auto;
+  width: 600px;
+}
+
+.logo {
+  width: 120px;
+  /* margin: 0 15rem; */
+}
+
+.infoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  font-weight: 600;
+}
+
+.founderDiv {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+.data {
+  margin-left:3rem;
+}
+
+.cardContainer {
+  width: 300px;
+  height: 200px;
+  background: -webkit-linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3a7bd5,
+    #00d2ff
+  );
+  color: white;
+  border-radius: 5px;
+  margin-right: 25px;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}

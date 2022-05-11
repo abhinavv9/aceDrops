@@ -57,3 +57,11 @@ a {
 .email i {
     padding-right: 0.4rem;;
 }
+
+.copyright {
+  color: rgb(206, 206, 206);
+  margin-top: 4rem;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: 600;
+}

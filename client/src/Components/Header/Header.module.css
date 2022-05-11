@@ -41,3 +41,24 @@
   cursor: pointer;
   background-color: #37b1f8e8;
 }
+
+@media screen and (max-width: 1200px) {
+  .para {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .para {
+    width: 500px;
+    font-size: 3rem;
+    bottom: 19rem;
+    left: 7rem;
+    font-weight: 600;
+  }
+
+  .btn {
+    bottom: 9rem;
+    left: 7rem;
+  }
+}

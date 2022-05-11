@@ -12,6 +12,7 @@ const Footer = () => {
           An e commerce market place made for small social media sellers
           operating through instagram, whatsapp and telegram.
         </p>
+        <p className={classes.copyright}>All copyrights are reserved @acedrops.in</p>
       </div>
       <div className={classes.contact}>
         <Link to="/contact">

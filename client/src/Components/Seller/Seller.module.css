@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  max-width: 900px;
   width: 900px;
 }
 
@@ -23,8 +24,9 @@
 
 .para {
   text-align: justify;
-  width: 850px;
+  max-width: 850px;
   font-size: 20px;
+  padding: 0 1.5rem;
 }
 
 .btn {
@@ -44,4 +46,16 @@
     transition: 0.5s;
     box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
     cursor: pointer;
+}
+
+@media screen and (max-width: 1024px){
+  .card {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 810px){
+  .card {
+    width: 750px;
+  }
 }

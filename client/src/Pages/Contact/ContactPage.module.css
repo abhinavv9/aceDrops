@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+    min-height: 85vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 70vh;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.infoSection {
+    width:40vw; 
+}
