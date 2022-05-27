@@ -117,7 +117,26 @@ const ContactPage = () => {
         />
         <button onClick={handleSubmit}>Submit</button>
       </Box>
-      <div className={classes.infoSection}></div>
+      <div className={classes.infoSection}>
+        <h2 className={classes.heading}>Contact Us</h2>
+        <div className={classes.details}>
+          <p className={classes.para}>
+            We are 24 hours ready to receive your queries Go ahead and contact
+            our team today
+          </p>
+          <ul className={classes.list}>
+            <h3>Reach us @ info.acedrops@gmail.com</h3>
+            <li>
+              <li>
+                <i class="fa-solid fa-phone"></i>{"  "}6392970547
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>{"  "}9565973316
+              </li>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 };

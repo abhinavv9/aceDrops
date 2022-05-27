@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 750px;
+  max-width: 750px;
   margin: 0 auto;
   margin-bottom: 3.5rem;
 }
@@ -46,4 +46,18 @@
 .btn:hover {
   box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3);
   background: #37b1f8ea;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    justify-content: space-around;
+  }
+
+  .aboutPng {
+    width: 300px;
+  }
+
+  .para {
+    width: 18rem;
+  }
 }

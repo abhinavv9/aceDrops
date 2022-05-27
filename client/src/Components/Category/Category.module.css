@@ -1,5 +1,4 @@
 .container {
-  min-width: 768px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,19 +13,24 @@
 }
 
 .section {
-    height: 600px;
+    height: 450px;
+    width: 500px;
 }
 
 .png {
-  width: 65%;
+  width: 500px;
 }
 
 .para {
     float: center;
     position: relative;
-    bottom: 25rem;
+    bottom: 17rem;
+    left: 1rem;
     width: 300px;
-    left: 17rem;
-    color: #fff;
-    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
+/* 
+@media screen and (max-width:){
+  
+} */

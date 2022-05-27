@@ -22,14 +22,15 @@
 }
 
 .logo {
-  width: 37%;
+  width: 175px;
+  padding: 0 4rem;
 }
 
 .navs {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  width: 16%;
+  width: 220px;
   margin: 0 1rem;
   font-size: 20px;
   list-style-type: none;
@@ -37,6 +38,7 @@
 }
 
 a {
+
   text-decoration: none;
 }
 
@@ -47,7 +49,5 @@ a {
 }
 
 @media screen and (max-width: 860px) {
-  .navs {
-    width: 18%;
-  }
+
 }
