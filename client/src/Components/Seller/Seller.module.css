@@ -5,7 +5,7 @@
   flex-direction: column;
   max-width: 1150px;
   margin: 0 auto;
-  height: 650px;
+  height: 550px;
 }
 
 .card {
@@ -38,41 +38,57 @@
   height: 25px;
   width: 170px;
   font-size: 14px;
-  margin: 2rem 0 4.5rem 0;
+  margin: 2rem 0 2rem 0;
   transition: 0.5s;
 }
 
 .btn:hover {
-    transition: 0.5s;
-    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
-    cursor: pointer;
+  transition: 0.5s;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .card {
     width: 800px;
   }
 }
 
-@media screen and (max-width: 810px){
+@media screen and (max-width: 810px) {
   .card {
     width: 700px;
   }
 }
 
-
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px) {
   .card {
     width: 630px;
   }
 }
 
-
-@media screen and (max-width: 620px){
+@media screen and (max-width: 650px) {
   .container {
-    height: 700px;
+    height: 1200px;
+  }
+
+  .heading {
+    margin: 1.5rem 0;
   }
   .card {
-   /* flex-direction: column; */
+    max-width: 400px;
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
   }
 }
+@media screen and (max-width: 375px) {
+  .content {
+    padding-bottom: 0.5rem;
+  }
+  .container {
+    height: 1250px;
+    margin-bottom: 1rem;
+  }
+}
+

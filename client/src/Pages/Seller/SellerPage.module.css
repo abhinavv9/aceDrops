@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 60vw;
+  width: 80vw;
   margin: 0 auto;
   margin-bottom: 3rem;
   margin-top: 3rem;
@@ -27,11 +27,14 @@
 }
 
 .sellerInfo {
-  width: 400px;
+  max-width: 400px;
+  width: 95%;
+  padding: 0 0.5rem;
 }
 
 .sellerInfo h3 {
-  font-size: 2rem;
+  margin: 1.5rem 0;
+  font-size: 2.5rem;
   font-weight: 600;
 }
 
@@ -47,6 +50,7 @@
 }
 
 .pricingHeading {
+  margin: 2rem 0;
   font-weight: 700;
   font-size: 3rem;
 }
@@ -56,7 +60,7 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 600px;
+  /* width: 600px; */
 }
 
 .pricingImg {
@@ -66,7 +70,92 @@
 .pricingPara {
   position: absolute;
   color: #fff;
-  width: 400px;
+  max-width: 400px;
+  width: 95%;
   font-size: 1.5rem;
   font-weight: 600;
+}
+@media screen and (max-width: 910px) {
+  .sellerInfo h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sellerDivImg {
+    width: 300px;
+  }
+  .sellerInfo h3 {
+    font-size: 1.8rem;
+  }
+  .sellerInfo p {
+    font-size: 0.9rem;
+  }
+ .headerImg {
+  width: 400px;
+ }
+
+  .pricingImg {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .sellerDivImg {
+    width: 280px;
+  }
+
+ .headerImg {
+  width: 350px;
+ }
+
+  .pricingImg {
+    width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .sellerDiv {
+    justify-content: space-between;
+    margin: 0;
+  }
+  .sellerDivImg {
+    width: 250px;
+  }
+
+ .headerImg {
+  width: 350px;
+ }
+
+  .pricingImg {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .sellerDivImg {
+    width: 200px;
+  }
+
+ .headerImg {
+  width: 280px;
+ }
+
+  .pricingImg {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .sellerDivImg {
+    width: 180px;
+  }
+
+ .headerImg {
+  width: 240px;
+ }
+
+  .pricingImg {
+    width: 200px;
+  }
 }

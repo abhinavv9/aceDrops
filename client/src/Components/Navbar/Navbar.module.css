@@ -1,7 +1,7 @@
 .container {
   /* -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px); */
-  background: rgba(214, 214, 214, 0.65);
+  background: rgba(176, 176, 176, 0.7);
   margin: 0 auto;
   text-align: center;
   /* background: transparent; */
@@ -22,7 +22,7 @@
 }
 
 .logo {
-  width: 175px;
+  width: 195px;
   padding: 0 4rem;
 }
 
@@ -38,16 +38,44 @@
 }
 
 a {
-
   text-decoration: none;
 }
 
 .navs li {
-  font-family: 'STIX Two Text', serif;
+  font-family: "STIX Two Text", serif;
   color: black;
   /* font-weight: 600; */
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 550px) {
+  .logo {
+    padding: 0rem;
+  }
+}
 
+@media screen and (max-width: 430px) {
+  .navs li {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .section {
+    padding: 0.5rem;
+  }
+  .navs {
+    justify-content: space-between;
+  }
+  .logo {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .section {
+    padding: 0.2rem;
+  }
+  .navs li {
+    font-size: 14px;
+  }
 }

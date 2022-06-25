@@ -3,34 +3,53 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: rgb(240, 240, 240);
+  /* background: rgb(240, 240, 240); */
 }
 
 .heading {
-  margin: 1.5rem 0 3.5rem 0;
+  margin: 1.5rem 0 1.5rem 0;
   font-size: 3rem;
   color: #858383;
 }
 
 .section {
-    height: 450px;
-    width: 500px;
+  max-height: 400px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .png {
-  width: 500px;
+  max-width: 500px;
+  width: 90%;
 }
 
 .para {
-    float: center;
-    position: relative;
-    bottom: 17rem;
-    left: 1rem;
-    width: 300px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
+  float: center;
+  position: relative;
+  bottom: 17rem;
+  left: 1rem;
+  max-width: 300px;
+  width: 95%;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }
-/* 
-@media screen and (max-width:){
-  
-} */
+
+@media screen and (max-width: 500px) {
+  .container {
+    height: 450px;
+  }
+
+  .section {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width:350px){
+  .container {
+    height: fit-content;
+    margin: 1rem 0;
+  }
+  .section {
+    height: 240px;
+  }
+}

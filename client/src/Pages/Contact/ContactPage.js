@@ -50,7 +50,7 @@ const ContactPage = () => {
         className={classes.form}
         component="form"
         sx={{
-          "& > :not(style)": { m: 1, width: "450px" },
+          "& > :not(style)": { m: 1, width: "400px" },
         }}
         noValidate
         autoComplete="off"
@@ -127,12 +127,8 @@ const ContactPage = () => {
           <ul className={classes.list}>
             <h3>Reach us @ info.acedrops@gmail.com</h3>
             <li>
-              <li>
-                <i class="fa-solid fa-phone"></i>{"  "}6392970547
-              </li>
-              <li>
-                <i class="fa-solid fa-phone"></i>{"  "}9565973316
-              </li>
+              <i><i class="fa-solid fa-phone"></i>{"  "}6392970547</i>
+              <i><i class="fa-solid fa-phone"></i>{"  "}9565973316</i>
             </li>
           </ul>
         </div>

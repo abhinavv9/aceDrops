@@ -6,7 +6,7 @@ import classes from "./Seller.module.css";
 const SellerSection = () => {
   return (
     <div className={classes.container}>
-      <div>
+      <div className={classes.content}>
         <h2 className={classes.heading}>Become a seller</h2>
         <p className={classes.para}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc

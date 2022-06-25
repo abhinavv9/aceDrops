@@ -1,5 +1,5 @@
 import classes from "./Header.module.css";
-import headPng from "../../Assets/header_final.png";
+import headPng from "../../Assets/header2.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {

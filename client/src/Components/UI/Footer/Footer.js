@@ -19,10 +19,10 @@ const Footer = () => {
           <h3 className={classes.heading}>Contact Us</h3>
         </Link>
         <span>
-          <i class="fa-solid fa-phone"></i> +91-6392970547
+          <i className="fa-solid fa-phone"></i> +91-6392970547
         </span>
         <span>
-          <i class="fa-solid fa-phone"></i> +91-9565973316
+          <i className="fa-solid fa-phone"></i> +91-9565973316
         </span>
         <span className={classes.email}>
           <i className="fa-solid fa-envelope"></i>
